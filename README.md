@@ -41,3 +41,14 @@ Given more time i'd style the filters bar to scroll with the page and render in 
 # styling
 
 - The component has some basic styling added inline inside the app.vue file
+
+
+# Extended updates
+
+- The brand filter has been moved to a separate component to improve the readability of the app
+
+- The styling has been updated to:
+  - align the colour scheme with the provided palette
+  - allow the filter bar to scroll with the content
+  - resize better to screen size
+  - add a currency indicator!
