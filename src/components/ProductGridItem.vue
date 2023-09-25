@@ -2,7 +2,7 @@
   <div class="product-grid-item">
     <img class="product-image" :src="product.image" />
     <p class="product-name">{{ product.name }}</p>
-    <p>{{ product.price }}</p>
+    <p>£ {{ product.price }}</p>
   </div>
 </template>
 
@@ -23,5 +23,10 @@ export default {
 
 .product-image {
   width: 100%;
+}
+
+p {
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 </style>
